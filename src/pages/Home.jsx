@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Button, Collapse, Container,  Nav, Navbar, Tab, Tabs } from 'react-bootstrap';
+import {Collapse, Container,  Nav, Navbar, Tab, Tabs } from 'react-bootstrap';
 import logo from "../../src/Vector.png";
-import { BsEmojiSmile,BsEmojiAngry,BsEmojiHeartEyes,BsClipboard,BsBoxArrowUp,BsBookmark,BsHouseDoorFill,BsBarChartLine,BsFacebook,BsLinkedin,BsTwitter} from "react-icons/bs";
+import { BsEmojiSmile,BsClipboard,BsBoxArrowUp,BsBookmark,BsHouseDoorFill,BsBarChartLine,BsFacebook,BsLinkedin,BsTwitter} from "react-icons/bs";
 const Home = () => {
 // ----------for Collapse----------
 const [open,setOPen]=useState(false)
@@ -116,14 +116,14 @@ const [open,setOPen]=useState(false)
                        </div>
                         {/* ------collapse---------- */}
                          <Collapse in={open}>
-                        <div style={{marginLeft:"20%",width:"50%"}} className='position-absolute mt-2 py-2' id="collapse">
+                        <div style={{marginLeft:"8%",width:"50%"}} className='position-absolute mt-2 py-2' id="collapse">
                            <BsFacebook className='me-3 fs-4' style={{color:"#4267B2"}}/>
                             <BsLinkedin className='fs-4' style={{color:'#0072b1'}}/>
                             <BsTwitter className='ms-3 fs-4'style={{color:'#00acee '}}/>
                        </div>
                        </Collapse>
                         <div className=' w-100 mx-auto mt-5 pt-2'>
-                        <h5 className=''>How was This Summery?</h5>
+                        <h5 className=''>How was this Summary?</h5>
                         < BsEmojiSmile  style={{fontSize:'25px',color:"#FFDA6A"}}/>  
                         < BsEmojiSmile className='mx-2' style={{fontSize:'25px',color:"#FFDA6A"}}/> 
                         {/* ------for gradient color----- */}
@@ -185,14 +185,14 @@ const [open,setOPen]=useState(false)
                        </div>
                         {/* ------collapse---------- */}
                         <Collapse in={open}>
-                        <div  style={{marginLeft:"20%",width:"50%"}} className=' mt-2 py-2 position-absolute' id="collapse"> 
-                        <BsFacebook className='me-3 fs-3' style={{color:"#4267B2"}}/>
-                        <BsLinkedin className='fs-3' style={{color:'#0072b1'}}/>
-                        <BsTwitter className='ms-3 fs-3'style={{color:'#00acee '}}/>
+                        <div  style={{marginLeft:"8%",width:"50%"}} className=' mt-2 py-2 position-absolute' id="collapse"> 
+                        <BsFacebook className='me-3 fs-4' style={{color:"#4267B2"}}/>
+                        <BsLinkedin className='fs-4' style={{color:'#0072b1'}}/>
+                        <BsTwitter className='ms-3 fs-4'style={{color:'#00acee '}}/>
                        </div>
                        </Collapse>
                         <div className=' w-100  mx-auto mt-5 pt-2' >
-                        <h5 >How was This Summery?</h5>
+                        <h5 >How was this Summary?</h5>
                         < BsEmojiSmile  style={{fontSize:'25px',color:"#FFDA6A"}}/>  
                         < BsEmojiSmile className='mx-2' style={{fontSize:'25px',color:"#FFDA6A"}}/> 
                         {/* ------for gradient color----- */}
