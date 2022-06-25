@@ -121,7 +121,7 @@ const [open,setOPen]=useState(false)
                        </div>
                        </Collapse>
                         <div className=' w-75 mx-auto mt-5 pt-2'>
-                        <h5 className=''>How was This Summery?</h5>
+                        <h5 className=''>How was this Summary?</h5>
                         < BsEmojiSmile  style={{fontSize:'25px',color:"#FFDA6A"}}/>  
                         < BsEmojiSmile className='mx-2' style={{fontSize:'25px',color:"#FFDA6A"}}/> 
                         {/* ------for gradient color----- */}
@@ -187,10 +187,20 @@ const [open,setOPen]=useState(false)
                         <BsTwitter className='ms-3 fs-3'style={{color:'#00acee '}}/>
                        </div>
                        </Collapse>
-                        <div className=' w-75  mx-auto mt-5 pt-2' >
-                        <h5 >How was This Summery?</h5>
-                          <BsEmojiAngry style={{fontSize:"25px"}}/>  
-                          <BsEmojiHeartEyes style={{fontSize:"25px",marginLeft:"25px"}}/>  
+                       <div className=' w-75 mx-auto mt-5 pt-2'>
+                        <h5 className=''>How was this Summary?</h5>
+                        < BsEmojiSmile  style={{fontSize:'25px',color:"#FFDA6A"}}/>  
+                        < BsEmojiSmile className='mx-2' style={{fontSize:'25px',color:"#FFDA6A"}}/> 
+                        {/* ------for gradient color----- */}
+                         <svg width="0" height="0">
+                         <linearGradient id="red-gradient" y1="50%" y2="50%" x1="0%" x2="100%">
+                         <stop stopColor="#FFDA6A " offset="0%" />
+                         <stop stopColor="#E9ECEF" offset="100%" />
+                        </linearGradient>
+                        </svg>
+                          < BsEmojiSmile style={{fill: "url(#red-gradient)",fontSize:'25px'}}/> 
+                        < BsEmojiSmile className='mx-2'style={{fontSize:'25px',color:"#E9ECEF"}}/> 
+                        < BsEmojiSmile style={{fontSize:'25px',color:"#E9ECEF"}}/> 
                        </div>
                        </div>
                     </div>
