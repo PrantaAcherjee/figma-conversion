@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import {Collapse, Container,  Nav, Navbar, Tab, Tabs } from 'react-bootstrap';
 import logo from "../../src/Vector.png";
-import { BsEmojiSmile,BsClipboard,BsBoxArrowUp,BsBookmark,BsHouseDoorFill,BsBarChartLine,BsFacebook,BsLinkedin,BsTwitter} from "react-icons/bs";
+import { BsEmojiSmile,BsClipboard,BsBoxArrowUp,BsBookmark,BsHouseDoorFill,BsBarChartLine,BsFacebook,BsLinkedin,BsTwitter,BsEnvelope} from "react-icons/bs";
 const Home = () => {
 // ----------for Collapse----------
 const [open,setOPen]=useState(false)
@@ -38,7 +38,7 @@ const [open,setOPen]=useState(false)
              </Nav>
             </Navbar.Collapse>
           </Container>
-        </Navbar>
+           </Navbar>
          </div>
         </div>
  {/* --------------------for desktop-------------   */}
@@ -95,11 +95,11 @@ const [open,setOPen]=useState(false)
                      </div>
                      <div className='comment-date d-flex'>
                     <div className='mail'>
-                         <p>microsoft.com</p>
+                         <small>microsoft.com</small>
                         </div>
                         <div style={{width:"1.5px",height:'14px',backgroundColor:"#6C757D",margin:'7px 5px',}}></div>
                         <div className='date'>
-                      <p>April 14 2022</p>
+                      <small>April 14 2022</small>
                      </div>
                      </div>
                      <div className='comment-description'>
@@ -116,13 +116,15 @@ const [open,setOPen]=useState(false)
                        </div>
                         {/* ------collapse---------- */}
                          <Collapse in={open}>
-                        <div style={{marginLeft:"8%",width:"50%"}} className='position-absolute mt-2 py-2' id="collapse">
-                           <BsFacebook className='me-3 fs-4' style={{color:"#4267B2"}}/>
-                            <BsLinkedin className='fs-4' style={{color:'#0072b1'}}/>
-                            <BsTwitter className='ms-3 fs-4'style={{color:'#00acee '}}/>
+                         <div  style={{marginLeft:"22%",width:"26%"}} className=' mt-2 py-2 position-absolute border' id="collapse"> 
+                        <BsTwitter className='me-3 fs-5'/>
+                            <BsLinkedin className='me-3 fs-5'
+                            />
+                            <BsFacebook className='me-3 fs-5' />
+                            <BsEnvelope className='me-3 fs-5' />
                        </div>
                        </Collapse>
-                        <div className=' w-100 mx-auto mt-5 pt-2'>
+                        <div className=' w-100 mx-auto mt-5 pt-3'>
                         <h5 className=''>How was this Summary?</h5>
                         < BsEmojiSmile  style={{fontSize:'25px',color:"#FFDA6A"}}/>  
                         < BsEmojiSmile className='mx-2' style={{fontSize:'25px',color:"#FFDA6A"}}/> 
@@ -164,11 +166,11 @@ const [open,setOPen]=useState(false)
                 </div>
                 <div className='comment-date d-flex '>
                     <div className='mail'>
-                         <p>microsoft.com</p>
+                         <small>microsoft.com</small>
                         </div>
                         <div style={{width:"1.5px",height:'14px',backgroundColor:"#6C757D",margin:'7px 5px',}}></div>
                         <div className='date'>
-                      <p>April 14 2022</p>
+                      <small>April 14 2022</small>
                      </div>
                      </div>
                     <div className='comment-description '>
@@ -185,13 +187,15 @@ const [open,setOPen]=useState(false)
                        </div>
                         {/* ------collapse---------- */}
                         <Collapse in={open}>
-                        <div  style={{marginLeft:"8%",width:"50%"}} className=' mt-2 py-2 position-absolute' id="collapse"> 
-                        <BsFacebook className='me-3 fs-4' style={{color:"#4267B2"}}/>
-                        <BsLinkedin className='fs-4' style={{color:'#0072b1'}}/>
-                        <BsTwitter className='ms-3 fs-4'style={{color:'#00acee '}}/>
+                        <div  style={{marginLeft:"22%",width:"26%"}} className=' mt-2 py-2 position-absolute border' id="collapse"> 
+                        <BsTwitter className='me-3 fs-5'/>
+                            <BsLinkedin className='me-3 fs-5'
+                            />
+                            <BsFacebook className='me-3 fs-5' />
+                            <BsEnvelope className='me-3 fs-5' />
                        </div>
                        </Collapse>
-                        <div className=' w-100  mx-auto mt-5 pt-2' >
+                        <div className=' w-100  mx-auto mt-5 pt-3' >
                         <h5 >How was this Summary?</h5>
                         < BsEmojiSmile  style={{fontSize:'25px',color:"#FFDA6A"}}/>  
                         < BsEmojiSmile className='mx-2' style={{fontSize:'25px',color:"#FFDA6A"}}/> 
