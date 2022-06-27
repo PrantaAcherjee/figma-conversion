@@ -124,7 +124,7 @@ const [open,setOPen]=useState(false)
                             <BsEnvelope className='me-3 fs-5' />
                        </div>
                        </Collapse>
-                        <div className=' w-100 mx-auto mt-5 pt-3'>
+                        <div className=' w-100 mx-auto mt-5 pt-5'>
                         <h5 className=''>How was this Summary?</h5>
                         < BsEmojiSmile  style={{fontSize:'25px',color:"#FFDA6A"}}/>  
                         < BsEmojiSmile className='mx-2' style={{fontSize:'25px',color:"#FFDA6A"}}/> 
@@ -195,7 +195,7 @@ const [open,setOPen]=useState(false)
                             <BsEnvelope className='me-3 fs-5' />
                        </div>
                        </Collapse>
-                        <div className=' w-100  mx-auto mt-5 pt-3' >
+                        <div className=' w-100  mx-auto mt-5 pt-5' >
                         <h5 >How was this Summary?</h5>
                         < BsEmojiSmile  style={{fontSize:'25px',color:"#FFDA6A"}}/>  
                         < BsEmojiSmile className='mx-2' style={{fontSize:'25px',color:"#FFDA6A"}}/> 
